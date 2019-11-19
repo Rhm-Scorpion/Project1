@@ -1,0 +1,76 @@
+body {
+    background: gray;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+    ;
+}
+
+.header {
+    margin: auto;
+    width: 900px;
+    border: 1px solid whitesmoke;
+    background: black;
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    color: green;
+}
+
+.nav_bar {
+    margin: auto;
+    width: 900px;
+    padding: 10px 50px 10px 50px;
+    border: 1px solid whitesmoke;
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    word-spacing: 100px
+}
+
+.nav_bar a {
+    color: green;
+    text-decoration: none;
+}
+
+.nav_bar a:hover {
+    color: grey
+}
+
+.main_container {
+    margin: auto;
+    width: 900px;
+	height: 558px;
+    border: 2px solid whitesmoke;
+    background: black;
+    color: green;
+    padding: 50px;
+    text-align: justify;
+}
+
+.footer {
+    margin: auto;
+    width: 900px;
+    border: 1px solid whitesmoke;
+    background: black;
+    color: green;
+    padding: 50px;
+    border: 1px solid #000000;
+}
+
+#slika {
+    float: right;
+    width: 250px;
+    height: 363px;
+}
+
+#html_pravougaonik {
+    height: 100px;
+    width: 300px;
+    border-style: dotted;
+    background-color: black;
+}

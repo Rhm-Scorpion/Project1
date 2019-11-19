@@ -1,0 +1,151 @@
+body {
+    background: gray;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    margin: auto;
+    width: 900px;
+    border: 1px solid whitesmoke;
+    background: black;
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    color: green;
+}
+
+.nav_bar {
+    margin: auto;
+    width: 900px;
+    padding: 10px 50px 10px 50px;
+    border: 1px solid whitesmoke;
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    word-spacing: 100px;
+}
+
+.nav_bar a {
+    color: green;
+    text-decoration: none;
+}
+
+.nav_bar a:hover {
+    color: white;
+    font-size: 40px;
+}
+
+.main_container {
+    margin: auto;
+    width: 900px;
+    height: 558px;
+    border: 1px solid whitesmoke;
+    color: black;
+    background-color: black;
+    padding: 50px;
+    text-align: center;
+}
+
+.wrapper {
+    top: 50%;
+    transform: translateY(40%);
+    width: 100%;
+    padding: 0 20px;
+    border-color: green;
+}
+
+.contact-form {
+    display: flex;
+    max-width: 550px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border:
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+
+.input {
+    color: green;
+}
+
+.input-fields,
+.msg {
+    width: 48%;
+}
+
+.input-fields .input,
+.msg textarea {
+    margin: 10px 0;
+    background: transparent;
+    border: 0px;
+    border-bottom: 2px solid green;
+    padding: 10px;
+    color: green;
+    width: 100%;
+}
+
+.msg textarea {
+    height: 212px;
+}
+
+ ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: green;
+}
+
+ ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: green;
+}
+
+ :-ms-input-placeholder {
+    /* IE 10+ */
+    color: green;
+}
+
+.btn {
+    background: green;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+    .contact-form {
+        flex-direction: column;
+    }
+    .msg textarea {
+        height: 80px;
+    }
+    .input-fields,
+    .msg {
+        width: 100%;
+    }
+}
+
+.footer {
+    margin: auto;
+    width: 900px;
+    border: 1px solid whitesmoke;
+    background: black;
+    color: green;
+    padding: 50px;
+    border: 1px solid #000000;
+    transform: translateX(-5%);
+}

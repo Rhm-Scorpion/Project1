@@ -1,0 +1,104 @@
+                body {
+                    background: gray;
+                    margin: 0 auto;
+                    font-family: 'Times New Roman', Times, serif;
+                }
+                
+                .header {
+                    margin: auto;
+                    width: 900px;
+                    border: 1px solid whitesmoke;
+                    background: black;
+                    padding: 50px;
+                    text-align: center;
+                }
+                
+                h1 {
+                    font-size: 50px;
+                    color: green;
+                }
+                
+                .nav_bar {
+                    margin: auto;
+                    width: 900px;
+                    padding: 10px 50px 10px 50px;
+                    border: 1px solid whitesmoke;
+                    background: #000000;
+                    color: #ffffff;
+                    text-align: center;
+                    font-size: 25px;
+                    font-weight: bold;
+                    word-spacing: 100px;
+                }
+                
+                .nav_bar a {
+                    color: green;
+                    text-decoration: none;
+                }
+                
+                .nav_bar a:hover {
+                    color: white;
+                    font-size: 40px;
+                }
+                
+                .main_container {
+                    margin: auto;
+                    width: 900px;
+                    border: 1px solid whitesmoke;
+                    background: black;
+                    color: green;
+                    padding: 50px;
+                    text-align: center;
+                    height: 558px;
+                }
+                
+                .btn {
+                    border: 1px solid green;
+                    background: none;
+                    padding: 80px 100px;
+                    font-size: 40px;
+                    font-family: "montserrat";
+                    cursor: pointer;
+                    margin: 10px;
+                    transition: 0.8s;
+                    position: relative;
+                    overflow: hidden;
+                    color: green;
+                    padding: 100px;
+                    width: 400px;
+                    height: 200px;
+                    box-shadow: -5px 10px 15px green;
+                }
+                
+                .btn1 {
+                    transform: translate(20px, 20px);
+                }
+                
+                .btn2 {
+                    transform: translate(20px, 20px);
+                }
+                
+                .btn3 {
+                    transform: translate(20px, 20px);
+                }
+                
+                .btn4 {
+                    transform: translate(20px, 20px);
+                }
+                
+                .btn:hover {
+                    color: black;
+                    background: green;
+                    width: 300px;
+                    box-shadow: 0px 2px 10px 5px green;
+                }
+                
+                .footer {
+                    margin: auto;
+                    width: 900px;
+                    border: 1px solid whitesmoke;
+                    background: black;
+                    color: green;
+                    padding: 50px;
+                    border: 1px solid #000000;
+                }
